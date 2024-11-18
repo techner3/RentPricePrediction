@@ -43,8 +43,17 @@ Essential Folders:
 7. AWS Account: To push final model and monitoring data dump 
 8. Grafana Account: To monitor the data drift
 
+Training Pipeline:
+
 ![](./images/Training_Pipeline.png)
+
+Monitoring Pipeline:
+
 ![](./images/Monitoring_Pipeline.png)
+
+
+Monitoring Dashboard:
+
 ![](./images/Monitoring_Dashboard.png)
 
 ## Running the Pipeline
