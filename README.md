@@ -12,15 +12,10 @@ The project includes:
 # Project Overview
 
 1. End-to-End Machine Learning Pipeline: Covers every stage from data ingestion to model pushing, fully automated with Airflow.
-
 2. Experimentation Tracking: Utilized MLflow for tracking experiments, logging model metrics, and managing model versions.
-
 3. Model Deployment: The final trained model is pushed to AWS for production use.
-
 4. Data Storage: Data is stored in MongoDB, ensuring scalability and quick access.
-
 5. Data Drift Monitoring Dashboard: Developed using Grafana, with data stored in AWS PostgreSQL, to track any anomalies in incoming data and monitor the system's performance.
-
 6. Airflow Pipelines:
     1. Retraining Pipeline: Automatically retrains the model when new data is available.
     2. Monitoring Pipeline: Dumps monitoring data into PostgreSQL for analysis.
@@ -47,6 +42,10 @@ Essential Folders:
 6. MongoDB: Set up MongoDB for data storage.
 7. AWS Account: To push final model and monitoring data dump 
 8. Grafana Account: To monitor the data drift
+
+![](./images/Training_Pipeline.png)
+![](./images/Monitoring_Pipeline.png)
+![](./images/Monitoring_Dashboard.png)
 
 ## Running the Pipeline
 
