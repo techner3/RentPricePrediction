@@ -1,0 +1,53 @@
+target:
+  Rent:
+    type: float
+
+features:
+  Parking:
+    type : string
+  Direction facing:
+    type : string
+  Listed by:
+    type : string
+  Property on: 
+    type : string
+  Listed On:
+    type : string
+  Brokerage terms:
+    type : string
+  Bachelors Allowed:
+    type : string
+  Security Deposit:
+    type : float
+  Pet Allowed:
+    type : string
+  Non Vegetarian: 
+    type : string
+  Super Built-Up Area:
+    type : integer
+  Carpet Area:
+    type : integer
+  Bedrooms:
+    type : float
+  Bathrooms:
+    type : float
+  ID:
+    type : string
+  City:
+    type : string
+  State: 
+    type : string
+  Amenities:
+    type : string
+  Address:
+    type : string
+  Flooring type:
+    type : string
+  Furnishing State: 
+    type : string
+  Available from:
+    type : string
+  Servant Accomation:
+    type : string
+  Year of Construction:
+    type : string

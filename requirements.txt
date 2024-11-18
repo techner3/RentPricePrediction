@@ -1,0 +1,13 @@
+numpy 
+mlflow
+dagshub
+xgboost
+pandas
+matplotlib
+pymongo
+python-dotenv
+scikit-learn
+boto
+evidently
+
+-e .
